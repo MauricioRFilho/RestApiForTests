@@ -1,4 +1,4 @@
-namespace RestApiForTests.Server;
+namespace Api
 
 public class WeatherForecast
 {
