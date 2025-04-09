@@ -1,0 +1,80 @@
+/src
+│
+├── 📁 Api
+│   ├── Controllers
+│   │   ├── Auth
+│   │   │   └── AuthController.cs
+│   │   ├── Blog
+│   │   │   └── PostController.cs
+│   │   ├── Comments
+│   │   │   └── CommentController.cs
+│   │   ├── Contact
+│   │   │   └── ContactController.cs
+│   │   ├── Dashboard
+│   │   │   └── DashboardController.cs
+│   │   ├── Files
+│   │   │   └── FileController.cs
+│   │   ├── Projects
+│   │   │   └── ProjectController.cs
+│   │   ├── Quiz
+│   │   │   └── QuizController.cs
+│   │   ├── Store
+│   │   │   └── StoreController.cs
+│   │   ├── Team
+│   │   │   └── TeamController.cs
+│   │   ├── Todo
+│   │   │   └── TodoController.cs
+│   │   ├── Calendar
+│   │   │   └── CalendarController.cs
+│   │   └── Test
+│   │       └── TestController.cs
+│   └── Program.cs
+│
+├── 📁 Application
+│   ├── Interfaces
+│   │   ├── Services
+│   │   │   └── IAuthService.cs, IPostService.cs, etc.
+│   │   └── Repositories
+│   │       └── IPostRepository.cs, IContactRepository.cs, etc.
+│   ├── DTOs
+│   │   └── Todo
+│   │       ├── CreateTodoDto.cs
+│   │       └── TodoResponseDto.cs
+│   │   └── ... (outros módulos)
+│   └── Services
+│       ├── Todo
+│       │   └── TodoService.cs
+│       ├── Contact
+│       │   └── ContactService.cs
+│       └── ... (outros módulos)
+│
+├── 📁 Domain
+│   ├── Entities
+│   │   ├── User.cs
+│   │   ├── Post.cs
+│   │   ├── Comment.cs
+│   │   ├── ContactMessage.cs
+│   │   ├── TodoItem.cs
+│   │   ├── Project.cs
+│   │   ├── CalendarEvent.cs
+│   │   ├── UploadedFile.cs
+│   │   ├── TeamMember.cs
+│   │   ├── QuizQuestion.cs
+│   │   └── QuizResult.cs
+│   └── Enums
+│       └── (caso precise: ex. UserRole, Status, etc.)
+│
+├── 📁 Infrastructure
+│   ├── Data
+│   │   ├── AppDbContext.cs
+│   │   ├── Migrations/
+│   ├── Repositories
+│   │   ├── PostRepository.cs
+│   │   ├── ContactRepository.cs
+│   │   └── ... (outros módulos)
+│   └── Configurations
+│       └── EntityTypeConfigs.cs
+│
+├── 📁 Common
+│   ├── Helpers
+│   ├
